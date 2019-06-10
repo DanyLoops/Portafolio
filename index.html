@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <head>
 
 
@@ -27,20 +27,26 @@
 
         <!-- google fonts / font awesome -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+        
         <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
           crossorigin="anonymous"> -->
 
         <!-- terminal effect -->
-        <!-- <script src="t.min.js"></script> -->
+        <script src="t.min.js"></script>
 
         <!-- for on scroll animations -->
-        <!-- <link rel="stylesheet" href="animate.css">  -->
-        <!-- <script src="wow.min.js"></script>   -->
+        <link rel="stylesheet" href="animate.css"> 
+       <script src="wow.min.js"></script> 
+       <!-- Based on http://codepen.io/lbebber/pen/ypgql -->
+  <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> 
+
+      
 
         
       
       </head>
-</head>
+
 <body>
 
     <div class="wrapper">
@@ -54,7 +60,7 @@
             <li><a href="index.html">home<span>.</span></a></li>
             <li><a href="work.html">work<span>.</span></a></li>
             <li><a href="about.html">about me<span>.</span></a></li>
-            <li><a href="contact.html">contact<span>.</span></a></li>
+            <!-- <li><a href="contact.html">contact<span>.</span></a></li> -->
         </ul>
 
 <div id="toggle">
@@ -69,7 +75,7 @@
                 <li><a href="index.html">home<span>.</span></a></li>
                 <li><a href="work.html">work<span>.</span></a></li>
                 <li><a href="about.html">about me<span>.</span></a></li>
-                <li><a href="contact.html">contact<span>.</span></a></li>
+                <!-- <li><a href="contact.html">contact<span>.</span></a></li> -->
             </ul>
         </div>
 
@@ -78,14 +84,31 @@
 
 
     <!--- hero section starts here-->
-    <div class="hero">
-        <div class="header">
-            <h1 class="line anim-typewriter"> Front-end Developer & Design</h1>
-        </div>
-    </div>
-    <div class="scroll-down"></div>
-     <!--- hero section ends here-->
+    
+  
 
+            
+            
+    <div class="hero">
+            
+        <div class="header">
+                
+                
+                <h1 class="line anim-typewriter glitch" data-text="Front-end Developer & Design"> Front-end Developer & Design</h1>
+               
+        </div>
+        
+    </div>
+
+    
+    <div class="scroll-down"></div>
+
+   
+    <!-- <canvas id="nokey" width="800" height="800"></canvas> -->
+
+    
+     <!--- hero section ends here-->
+    
 
 
 
@@ -170,8 +193,8 @@
             <div class="info">
                 <div class="row">
                     <div class="col-lg-4" id="personal">
-                        <p class="wow fadeInUp">connect with me</p>
-                        <h4 class="wow fadeInUp"data-wow-delay="0.2s">dsm...@gmail</h4>
+                        <!-- <p class="wow fadeInUp">connect with me</p> -->
+                        <!-- <h4 class="wow fadeInUp"data-wow-delay="0.2s">dsm...@gmail</h4> -->
                         <br><br>     
                     </div>
 
@@ -189,8 +212,8 @@
                     </div>
 
                     <div class="col-lg-4" id="address">
-                        <p class="wow fadeInUp"data-wow-delay="0s">say hello</p>
-                        <h4 class="wow fadeInUp"data-wow-delay="0.2s">dsm...@gmail</h4>
+                        <!-- <p class="wow fadeInUp"data-wow-delay="0s">say hello</p> -->
+                        <!-- <h4 class="wow fadeInUp"data-wow-delay="0.2s">dsm...@gmail</h4> -->
                         <br><br>     
                     </div>
                 </div>
@@ -208,13 +231,14 @@
 
 <!--- boostrap cdn -->
 
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
  <!--- greensock cdn -->
      
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js""></script>
+    
     
     <script type="text/javascript">
     
@@ -256,9 +280,20 @@ TweenMax.staggerFrom("#menu li a",1, {
 
 //nav animation ends
 
-// new WOW().init();
+new WOW().init();
 
 
 </script>
+
+
+
+
+
+
+
+ <!-- canvas -->
+<!-- <script src="canvas.js"></script> -->
+
+
 </body>
 </html>
