@@ -20,6 +20,8 @@ html,body{
 }
 
 
+
+
 .whitespace{
     width:100%;
     height:100px;
@@ -294,10 +296,14 @@ nav #menu li a:hover {
     }
 }
 /*------------------- projects section ----------------- */
-
+h5{
+    text-align:center;
+    color:black;
+}
 
 h6{
     text-align:center;
+    color:black;
 }
 
 
@@ -358,10 +364,10 @@ h6{
     text-align: center;
     background-color: rgba(255,250,250);
 }
-.project3{
+/* .project3{
     background:url(./src/Templates\ Portafolio-03.png) no-repeat 50% 50%;
     background-size: cover;
-}
+} */
 
 .project3::after{
     content: "Hipatia Project.";
@@ -378,7 +384,7 @@ h6{
     background-color: rgba(255,250,250);
 }
 .project4{
-    background:url(./src/Templates\ Portafolio-04.png) no-repeat 50% 50%;
+    background:url(./src/Templates\Glitch.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -543,7 +549,7 @@ h6{
 }
 
 .image{
-    background:url(./src/Templates\ Portafolio-01.png) no-repeat 50%,70%;
+    background:url(./src/Glitch.jpg) no-repeat 50%,70%;
 }
 
 
@@ -804,4 +810,165 @@ input:focus{
     }
   }
 
+  .button{
+    z-index: 999;
+    width: 60px;
+    height:60px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .button:before, .button:after{
+  position: absolute;
+  }
+  .content{
+    transform: translateY(-10%);
+    bottom: 30px;
+    display: none;
+    left: -50px;
+    transition: all 0.5s ease-in-out;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #FFA6AA;
+    transform: translateY(0%);
+  }
+  .content a{
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   }
+   .link{
+     width: 20%;
+   }
+   .title{
+     color: black;
+     font-size: 12px;
+     display: none;
+   }
+  #toggle:checked~.content{
+    display: block;
+    transform: translateY(10%);  
+  }
+  #toggle:checked~.button{
+    transform: rotate(135deg);
+    box-shadow: 0 0 0 0 transparent;
+  }
+ 
+  
+ 
+  
+ 
+  .card-body{
+    background-color: #f3f3f3e3;
+    margin: 10px 10px 10px 10px;
+    color: black;
+  }
+  .img-presentation{
+    border-radius: 10%;
+  }
+  h4{
+    color: whitesmoke;
+  }
+  h5{
+    color: whitesmoke;
+  }
+  .tools-demos{
+    color: whitesmoke;
+  }
+  .header-name{ 
+    margin: 200px auto;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .centrado-img-me{
+    text-align: center;
+  }
+  .centrado{
+    text-align: justify;
+    padding: 20px;
+  }
+  .tools, .contact{
+    background-color: black;
+  }
+  .icons{
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    
+  }
+  .tools-icons{
+    width: 50px;
+    height: 50px;
+    color:whitesmoke;
+  }
+  .icons-footer{
+    font-size: 30px;
+    text-align: center;  
+  }
+  .icon-footer{
+  color: whitesmoke;
+  }
+  .hide{
+    display: none;
+  }
+  footer{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+  }
+  .letras-footer{
+    color: whitesmoke;
+  }
+  footer a{
+    color: #FFA6AA;
+  }
+  @media (min-width: 800px) {  
+    #experiencia, #contacto, #conoceme{
+    height: 700px;
+    align-items: center;  
+    }   
+    #contacto, #conoceme {
+    padding: 200px;
+    }
+    .icons-footer{
+      font-size: 80px;
+      text-align: center;  
+    }
+    .icon-footer{
+    color: #f3f3f3;
+    }
+    .menu{  
+      left: 90%;   
+    }
+    .title{
+     display: block;
+    } 
+    .hide{
+      display: block;
+      visibility: hidden;
+    } 
+    .content{
+      transform: translateY(-10%);
+      bottom: 30px;
+      display: none;
+      left: -100px;
+      transition: all 0.5s ease-in-out;
+      width: 150px;
+      border-radius: 15px;
+      background-color: #FFA6AA;
+      transform: translateY(0%);
+    }
+    .tools-icons{
+      width: 120px;
+      height: 120px;
+      color: #f3f3f3;
+    }
+  }
+  
+  
 
